@@ -37,7 +37,9 @@ class SumarActivity : AppCompatActivity() {
                         binding.txtResD.text = datosArray.elementAt(j).toString()
                         binding.txtPos1.text = i.toString()
                         binding.txtPos2.text = j.toString()
-                        Toast.makeText(this, "${datosArray.elementAt(i)} ${datosArray.elementAt(j)}", Toast.LENGTH_SHORT).show()
+
+                    }else{
+                        //Toast.makeText(this, "No hay numeros que sumen $target", Toast.LENGTH_SHORT).show()
                     }
                         //datos = intArrayOf(i, j).toString()
                             //return intArrayOf(i, j)
